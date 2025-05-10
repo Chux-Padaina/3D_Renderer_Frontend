@@ -27,3 +27,4 @@ C:\Users\aadha\RiderProjects\3D_Renderer_Frontend\3D_Renderer_Frontend\obj\Debug
 C:\Users\aadha\RiderProjects\3D_Renderer_Frontend\3D_Renderer_Frontend\obj\Debug\net9.0-windows\3D_Renderer_Frontend.pdb
 C:\Users\aadha\RiderProjects\3D_Renderer_Frontend\3D_Renderer_Frontend\obj\Debug\net9.0-windows\3D_Renderer_Frontend.genruntimeconfig.cache
 C:\Users\aadha\RiderProjects\3D_Renderer_Frontend\3D_Renderer_Frontend\obj\Debug\net9.0-windows\ref\3D_Renderer_Frontend.dll
+C:\Users\aadha\RiderProjects\3D_Renderer_Frontend\3D_Renderer_Frontend\obj\Debug\net9.0-windows\3D_Renderer_Frontend.sourcelink.json

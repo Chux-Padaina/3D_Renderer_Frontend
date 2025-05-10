@@ -183,33 +183,6 @@ let initializeRenderer (_: int) (_: int) : unit =
 
     _setCameraPosition(cameraPtr, -10.0f, 0.0f, 0.0f)
 
-    // TEMP OBJECT
-    let name  = "MUGMUG"
-    let mesh  = @"C:\Users\aadha\Downloads\Mug Fbx and tex\Mug Fbx and tex\Mug.fbx"
-    let diff  = @"C:\Users\aadha\Downloads\Mug Fbx and tex\Mug Fbx and tex\MugAlbedo.png"
-    let norm  = @"C:\Users\aadha\Downloads\Mug Fbx and tex\Mug Fbx and tex\MugNormal.png"
-    let metal = @"C:\Users\aadha\Downloads\Mug Fbx and tex\Mug Fbx and tex\MugMetalic.png"
-    let rough = @"C:\Users\aadha\Downloads\Mug Fbx and tex\Mug Fbx and tex\MugRoughness.png"
-
-    ensureExists "mesh" mesh
-    ensureExists "diffuse" diff
-    ensureExists "normal" norm
-    ensureExists "metallic" metal
-    ensureExists "roughness" rough
-
-    let objPtr =
-        try _createGameObject(name, mesh, diff, norm, metal, rough)
-        with ex ->
-            dumpNativeLogs("crash_createGameObject")
-            raise ex
-
-    gameObjectPtrs.Add(objPtr)
-    let arr = gameObjectPtrs.ToArray()
-    gameObjectGCHandle |> Option.iter (fun h -> h.Free()) // Free old handle
-    gameObjectGCHandle <- Some(GCHandle.Alloc(arr, GCHandleType.Pinned))
-
-
-    addToInspector name objPtr
     
 let random = Random()
 

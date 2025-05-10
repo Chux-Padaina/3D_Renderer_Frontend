@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("3D_Renderer_Frontend")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ea406233410fea6fd708ceba0bbe98545438d2e")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("3D_Renderer_Frontend")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("3D_Renderer_Frontend")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]
