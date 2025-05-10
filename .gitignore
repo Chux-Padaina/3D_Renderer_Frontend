@@ -1,0 +1,57 @@
+# Rider project files
+.idea/
+*.sln
+*.csproj
+*.fsproj
+*.userprefs
+bin/
+obj/
+out/
+*.log
+*.tmp
+*.cache
+
+# Rider config
+.idea/
+*.iml
+.vscode/
+
+# OS-specific files
+*.DS_Store
+Thumbs.db
+
+# Logs and backups
+*.log
+*.bak
+
+# Dependency directories
+node_modules/
+packages/
+
+# Compiled files
+*.dll
+*.exe
+*.pdb
+
+# Python cache
+__pycache__/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+packages/
+
+# Rider specific
+.idea/
+*.userprefs
+*.sln.iml
+
+# Temporary files
+*.swp
+*.tmp
