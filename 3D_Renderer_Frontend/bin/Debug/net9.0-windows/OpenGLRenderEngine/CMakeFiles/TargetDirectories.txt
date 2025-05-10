@@ -1,0 +1,4 @@
+C:/Users/Vin/CLionProjects/OpenGLRenderingEngineLibrary/cmake-build-debug/CMakeFiles/OpenGLRenderEngine.dir
+C:/Users/Vin/CLionProjects/OpenGLRenderingEngineLibrary/cmake-build-debug/CMakeFiles/CopyShaders.dir
+C:/Users/Vin/CLionProjects/OpenGLRenderingEngineLibrary/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Vin/CLionProjects/OpenGLRenderingEngineLibrary/cmake-build-debug/CMakeFiles/rebuild_cache.dir

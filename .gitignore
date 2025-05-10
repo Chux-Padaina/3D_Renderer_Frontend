@@ -1,11 +1,6 @@
 # Rider project files
 .idea/
-*.sln
-*.csproj
-*.fsproj
 *.userprefs
-bin/
-obj/
 out/
 *.log
 *.tmp
@@ -28,11 +23,6 @@ Thumbs.db
 node_modules/
 packages/
 
-# Compiled files
-*.dll
-*.exe
-*.pdb
-
 # Python cache
 __pycache__/
 
@@ -46,11 +36,6 @@ __pycache__/
 # NuGet
 *.nupkg
 packages/
-
-# Rider specific
-.idea/
-*.userprefs
-*.sln.iml
 
 # Temporary files
 *.swp
